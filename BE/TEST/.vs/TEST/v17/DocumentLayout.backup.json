@@ -63,8 +63,7 @@
               "RelativeToolTip": "TEST.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-29T07:24:50.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T07:24:50.955Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "TEST.Data\\Migrations\\20251029072413_v0_0.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:24:13.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T07:24:13.97Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "TEST.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAUwCgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:18:16.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T07:18:16.417Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "TEST.Application\\Services\\UserServices.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAWwGEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:14:18.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T07:14:18.987Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "TEST.Data\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:12:18.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T07:12:18.535Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "TEST.Data\\UserDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:10:59.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T07:10:59.033Z"
             }
           ]
         }

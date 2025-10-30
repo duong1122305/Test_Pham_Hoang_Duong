@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { useState } from 'react';
 import { Form, Button, Modal, ButtonGroup } from 'react-bootstrap';
+import Annoucement from './Annoucement';
 
 const CreateForm = ({ show, onHide, reloadData }) => {
     const userData = {
@@ -15,6 +16,10 @@ const CreateForm = ({ show, onHide, reloadData }) => {
 
     const [error, setError] = useState({})
 
+    const [showAnnou, setShowAnnou] = useState(false)
+
+    const [content, setContent] = useState('')
+
     const handlePost = async () => {
         try {
             const response = await axios({
@@ -22,10 +27,19 @@ const CreateForm = ({ show, onHide, reloadData }) => {
                 url: 'https://localhost:7067/api/user/create',
                 data: user
             })
+
+            setShowAnnou(true)
+            setContent('Add successfully')
             reloadData()
-            onHide()
+
+            setTimeout(() => {
+                onHide()
+            }, 200);
+
             console.log('success');
+
         } catch (error) {
+            setContent('Add fail')
             console.log('Error: ', error);
         }
     }
@@ -66,53 +80,60 @@ const CreateForm = ({ show, onHide, reloadData }) => {
     }
 
     return (
-        <Modal
-            show={show}
-            onHide={onHide}
-            onExited={reset}
-            size="lg"
-            aria-labelledby="contained-modal-title-vcenter"
-            centered
-        >
-            <Modal.Header closeButton>
-                <Modal.Title id="contained-modal-title-vcenter">
-                    Thêm người dùng
-                </Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-                <Form>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                        <Form.Label>Họ và tên</Form.Label>
-                        <Form.Control type="text" value={user.name} onChange={(e) => setUser({ ...user, name: e.target.value })} isInvalid={!!error.name} />
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Ngày sinh</Form.Label>
-                        <Form.Control type="date" value={user.dob} onChange={(e) => setUser({ ...user, dob: e.target.value })} isInvalid={!!error.dob} />
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Email</Form.Label>
-                        <Form.Control type="email" value={user.email} onChange={(e) => setUser({ ...user, email: e.target.value })} isInvalid={!!error.email} />
-                        {error.email && <div className="text-danger">{error.email}</div>}
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>SĐT</Form.Label>
-                        <Form.Control type="tel" value={user.phone} onChange={(e) => setUser({ ...user, phone: e.target.value })} isInvalid={!!error.phone} />
-                        {error.phone && <div className="text-danger">{error.phone}</div>}
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Địa chỉ</Form.Label>
-                        <Form.Control as="textarea" rows={3} value={user.address} onChange={(e) => setUser({ ...user, address: e.target.value })} isInvalid={!!error.address} />
-                    </Form.Group>
-                    <ButtonGroup aria-label="Basic example">
-                        <Button variant="outline-primary" onClick={handleSubmit}>Thêm</Button>
-                        <Button variant="outline-warning" type='reset' onClick={reset}>Reset</Button>
-                    </ButtonGroup>
-                </Form>
-            </Modal.Body>
-            <Modal.Footer>
-                <Button onClick={onHide}>Đóng</Button>
-            </Modal.Footer>
-        </Modal>
+        <>
+            <Modal
+                show={show}
+                onHide={onHide}
+                onExited={reset}
+                size="lg"
+                aria-labelledby="contained-modal-title-vcenter"
+                centered
+            >
+                <Modal.Header closeButton>
+                    <Modal.Title id="contained-modal-title-vcenter">
+                        Thêm người dùng
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <Form>
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <Form.Label>Họ và tên</Form.Label>
+                            <Form.Control type="text" value={user.name} onChange={(e) => setUser({ ...user, name: e.target.value })} isInvalid={!!error.name} />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                            <Form.Label>Ngày sinh</Form.Label>
+                            <Form.Control type="date" value={user.dob} onChange={(e) => setUser({ ...user, dob: e.target.value })} isInvalid={!!error.dob} />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                            <Form.Label>Email</Form.Label>
+                            <Form.Control type="email" value={user.email} onChange={(e) => setUser({ ...user, email: e.target.value })} isInvalid={!!error.email} />
+                            {error.email && <div className="text-danger">{error.email}</div>}
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                            <Form.Label>SĐT</Form.Label>
+                            <Form.Control type="tel" value={user.phone} onChange={(e) => setUser({ ...user, phone: e.target.value })} isInvalid={!!error.phone} />
+                            {error.phone && <div className="text-danger">{error.phone}</div>}
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                            <Form.Label>Địa chỉ</Form.Label>
+                            <Form.Control as="textarea" rows={3} value={user.address} onChange={(e) => setUser({ ...user, address: e.target.value })} isInvalid={!!error.address} />
+                        </Form.Group>
+                        <ButtonGroup aria-label="Basic example">
+                            <Button variant="outline-primary" onClick={handleSubmit}>Thêm</Button>
+                            <Button variant="outline-warning" type='reset' onClick={reset}>Reset</Button>
+                        </ButtonGroup>
+                    </Form>
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button onClick={onHide}>Đóng</Button>
+                </Modal.Footer>
+            </Modal>
+            <Annoucement
+                show={showAnnou}
+                content={content}
+                close={() => setShowAnnou(false)}
+            />
+        </>
     )
 }
 
