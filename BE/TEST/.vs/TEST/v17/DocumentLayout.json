@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABD0927-C220-4CD5-BE36-2D17BA8E77B9}|TEST.API\\TEST.API.csproj|e:\\testlamhai\\test_pham_hoang_duong\\be\\test\\test.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABD0927-C220-4CD5-BE36-2D17BA8E77B9}|TEST.API\\TEST.API.csproj|solutionrelative:test.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3918E3E-95D8-4E00-8952-C31712B68654}|TEST.Application\\TEST.Application.csproj|e:\\testlamhai\\test_pham_hoang_duong\\be\\test\\test.application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3918E3E-95D8-4E00-8952-C31712B68654}|TEST.Application\\TEST.Application.csproj|solutionrelative:test.application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0189E09E-AF0B-45DE-8C26-C14C14B52010}|TEST.Data\\TEST.Data.csproj|e:\\testlamhai\\test_pham_hoang_duong\\be\\test\\test.data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0189E09E-AF0B-45DE-8C26-C14C14B52010}|TEST.Data\\TEST.Data.csproj|solutionrelative:test.data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABD0927-C220-4CD5-BE36-2D17BA8E77B9}|TEST.API\\TEST.API.csproj|e:\\testlamhai\\test_pham_hoang_duong\\be\\test\\test.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7ABD0927-C220-4CD5-BE36-2D17BA8E77B9}|TEST.API\\TEST.API.csproj|solutionrelative:test.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABD0927-C220-4CD5-BE36-2D17BA8E77B9}|TEST.API\\TEST.API.csproj|e:\\testlamhai\\test_pham_hoang_duong\\be\\test\\test.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABD0927-C220-4CD5-BE36-2D17BA8E77B9}|TEST.API\\TEST.API.csproj|solutionrelative:test.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0189E09E-AF0B-45DE-8C26-C14C14B52010}|TEST.Data\\TEST.Data.csproj|e:\\testlamhai\\test_pham_hoang_duong\\be\\test\\test.data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0189E09E-AF0B-45DE-8C26-C14C14B52010}|TEST.Data\\TEST.Data.csproj|solutionrelative:test.data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0189E09E-AF0B-45DE-8C26-C14C14B52010}|TEST.Data\\TEST.Data.csproj|e:\\testlamhai\\test_pham_hoang_duong\\be\\test\\test.data\\migrations\\20251029072413_v0_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0189E09E-AF0B-45DE-8C26-C14C14B52010}|TEST.Data\\TEST.Data.csproj|solutionrelative:test.data\\migrations\\20251029072413_v0_0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TEST.API\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TEST.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:25:36.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TEST.API\\appsettings.json",
+              "ToolTip": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.API\\appsettings.json",
+              "RelativeToolTip": "TEST.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T07:24:50.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251029072413_v0_0.cs",
+              "DocumentMoniker": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.Data\\Migrations\\20251029072413_v0_0.cs",
+              "RelativeDocumentMoniker": "TEST.Data\\Migrations\\20251029072413_v0_0.cs",
+              "ToolTip": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.Data\\Migrations\\20251029072413_v0_0.cs",
+              "RelativeToolTip": "TEST.Data\\Migrations\\20251029072413_v0_0.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:24:13.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.API\\Program.cs",
+              "RelativeDocumentMoniker": "TEST.API\\Program.cs",
+              "ToolTip": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.API\\Program.cs",
+              "RelativeToolTip": "TEST.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwCgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:18:16.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.Application\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "TEST.Application\\Services\\UserServices.cs",
+              "ToolTip": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.Application\\Services\\UserServices.cs",
+              "RelativeToolTip": "TEST.Application\\Services\\UserServices.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAWwGEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:14:18.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.Data\\User.cs",
+              "RelativeDocumentMoniker": "TEST.Data\\User.cs",
+              "ToolTip": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.Data\\User.cs",
+              "RelativeToolTip": "TEST.Data\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:12:18.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.Data\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "TEST.Data\\UserDbContext.cs",
+              "ToolTip": "E:\\TestLamHai\\Test_Pham_Hoang_Duong\\BE\\TEST\\TEST.Data\\UserDbContext.cs",
+              "RelativeToolTip": "TEST.Data\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:10:59.033Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

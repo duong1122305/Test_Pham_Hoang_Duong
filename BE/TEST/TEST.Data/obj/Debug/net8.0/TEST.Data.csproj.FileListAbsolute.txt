@@ -1,0 +1,15 @@
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\bin\Debug\net8.0\TEST.Data.deps.json
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\bin\Debug\net8.0\TEST.Data.runtimeconfig.json
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\bin\Debug\net8.0\TEST.Data.dll
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\bin\Debug\net8.0\TEST.Data.pdb
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\obj\Debug\net8.0\TEST.Data.csproj.AssemblyReference.cache
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\obj\Debug\net8.0\TEST.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\obj\Debug\net8.0\TEST.Data.AssemblyInfoInputs.cache
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\obj\Debug\net8.0\TEST.Data.AssemblyInfo.cs
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\obj\Debug\net8.0\TEST.Data.csproj.CoreCompileInputs.cache
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\obj\Debug\net8.0\TEST.Data.sourcelink.json
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\obj\Debug\net8.0\TEST.Data.dll
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\obj\Debug\net8.0\refint\TEST.Data.dll
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\obj\Debug\net8.0\TEST.Data.pdb
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\obj\Debug\net8.0\TEST.Data.genruntimeconfig.cache
+E:\TestLamHai\Test_Pham_Hoang_Duong\BE\TEST\TEST.Data\obj\Debug\net8.0\ref\TEST.Data.dll
